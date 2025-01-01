@@ -8,15 +8,15 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
-	"github.com/tursodatabase/libsql-client-go/sqliteparserutils"
+	"github.com/re-worthy/libsql-client-go/sqliteparserutils"
 	"io"
 	"net/http"
 	net_url "net/url"
 	"runtime/debug"
 	"strings"
 
-	"github.com/tursodatabase/libsql-client-go/libsql/internal/hrana"
-	"github.com/tursodatabase/libsql-client-go/libsql/internal/http/shared"
+	"github.com/re-worthy/libsql-client-go/libsql/internal/hrana"
+	"github.com/re-worthy/libsql-client-go/libsql/internal/http/shared"
 )
 
 var commitHash string

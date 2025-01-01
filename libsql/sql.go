@@ -9,8 +9,8 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/tursodatabase/libsql-client-go/libsql/internal/http"
-	"github.com/tursodatabase/libsql-client-go/libsql/internal/ws"
+	"github.com/re-worthy/libsql-client-go/libsql/internal/http"
+	"github.com/re-worthy/libsql-client-go/libsql/internal/ws"
 )
 
 type config struct {
@@ -348,7 +348,7 @@ func (d Driver) Open(dbUrl string) (driver.Conn, error) {
 }
 
 func init() {
-	sql.Register("libsql", Driver{})
+	sql.Register("libsql-old", Driver{})
 }
 
 // backported from Go 1.21

@@ -1,7 +1,7 @@
 package hrana
 
 import (
-	"github.com/tursodatabase/libsql-client-go/libsql/internal/http/shared"
+	"github.com/re-worthy/libsql-client-go/libsql/internal/http/shared"
 )
 
 type Stmt struct {

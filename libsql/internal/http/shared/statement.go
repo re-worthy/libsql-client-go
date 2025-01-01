@@ -8,8 +8,8 @@ import (
 	"sort"
 
 	"github.com/antlr4-go/antlr/v4"
-	"github.com/tursodatabase/libsql-client-go/sqliteparser"
-	"github.com/tursodatabase/libsql-client-go/sqliteparserutils"
+	"github.com/re-worthy/libsql-client-go/sqliteparser"
+	"github.com/re-worthy/libsql-client-go/sqliteparserutils"
 )
 
 type ParamsInfo struct {

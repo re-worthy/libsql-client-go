@@ -1,4 +1,4 @@
-module github.com/tursodatabase/libsql-client-go
+module github.com/re-worthy/libsql-client-go
 
 go 1.20
 
